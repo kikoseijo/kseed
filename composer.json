@@ -1,0 +1,40 @@
+{
+    "name": "ksoft/kseed",
+    "description": "Base seeders for our laravel applications",
+    "keywords": [
+        "laravel",
+        "seeders"
+    ],
+    "homepage": "https://github.com/ksoft/kseed",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kiko Seijo",
+            "email": "kiko@sunnyface.com",
+            "homepage": "https://sunnyface.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Gestor App",
+            "email": "hola@gestorapp.com",
+            "homepage": "https://gestorapp.com",
+            "role": "Supporter"
+        }
+    ],
+    "require": {
+        "php" : "^7.0",
+        "illuminate/database": "5.*",
+        "illuminate/support": "5.*",
+        "fzaninotto/faker": "^1.5",
+        "league/flysystem": "^1.0",
+        "spatie/html-element": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ksoft\\Kseed\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
